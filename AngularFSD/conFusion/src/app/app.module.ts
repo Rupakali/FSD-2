@@ -19,13 +19,17 @@ import { DishService } from './services/dish.service';
 //import { DishlistComponent } from './dishlist/dishlist.component';
 import { DishDetailComponent } from './dishdetail/dishdetail.component';
 import 'hammerjs';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    DishDetailComponent
+    DishDetailComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
